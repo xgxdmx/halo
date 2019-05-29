@@ -1,13 +1,12 @@
 package run.halo.app.utils;
 
-import com.sun.nio.zipfs.JarFileSystemProvider;
 import org.junit.Test;
 
-import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.nio.file.*;
-import java.util.Collections;
+import java.nio.file.FileSystemNotFoundException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 /**
  * Path test.
